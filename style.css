@@ -1,0 +1,47 @@
+:root {
+    background-color: rgba(167, 161, 161, 0.283);
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.093);
+    border-radius: 1rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    width: 80%;
+    max-width: 90vw; /* Adjust as needed */
+    text-align: center; /* Center text */
+}
+
+.tittle {
+    color: rgba(48, 149, 5, 0.795);
+    font-size: 5vw;
+    align-items: center;
+}
+
+.address,
+.motor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Adds space between items */
+}
+
+.address h3, .motor p {
+    margin: 0; /* Remove default margin */
+    font-weight: bolder;
+}
+.motor{
+    margin-top: 2rem;
+}
